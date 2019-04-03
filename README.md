@@ -56,6 +56,14 @@ To run the application used apache tomcat 8.5.39 server on local machine. Upload
 1. Deploy Java Web App on Amazon Linux EC2 Instance Using Tomcat 
 https://www.youtube.com/watch?v=_d-c9uGcUrU
 
+2. Basics of Rest
+https://docs.oracle.com/javaee/6/tutorial/doc/gijqy.html
+
+3. Tutorials for Restful java application
+https://www.tutorialspoint.com/restful/
+
+4.CSV to JSON
+https://stackoverflow.com/questions/19766266/directly-convert-csv-file-to-json-file-using-the-jackson-library
 
 ## Author
 
