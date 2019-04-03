@@ -46,6 +46,11 @@ To test the **/forecast/20130101:
 Internet connectivity, 
 Browser
 
+## Operations performed
+
+Created Amazon linux EC2 instance using default security group. Used putty to execute linux command and installed apache-tomcat 8.5.39.
+To run the application used apache tomcat 8.5.39 server on local machine. Uploaded the application on the apache tomcat on the linux server. To run the application on the server used the public DNS address of the EC2 instance and appended it with the port number of apache and the application name.
+
 ## References
 
 1. Deploy Java Web App on Amazon Linux EC2 Instance Using Tomcat 
