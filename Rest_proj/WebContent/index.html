@@ -36,7 +36,7 @@
 				date : ""
 			};
 			$scope.dateProcessor = function() {
-				var url = 'http://ec2-54-186-40-227.us-west-2.compute.amazonaws.com:8080/Rest_proj/rest/supersumoz/forecast/'
+				var url = window.location.href+'rest/supersumoz/forecast/'
 						+ $scope.forecastObj.date;
 				$http({
 					method : 'GET',
@@ -70,8 +70,8 @@
 	<div class="container">
 	  <div class="jumbotron">
 	    <h1>Know Weather Forecast</h1> 
-	    <p>Click a date from which you would like to know weather of 
-	    next 7 days and plan accordingly.</p> 
+	    <p>Select a date from which you would like to know weather of 
+	    next 8 days and plan accordingly.</p> 
 	  </div>
 	</div>
 
@@ -89,8 +89,8 @@
 	</div>
 
 	<div class="container">
-	  <h2>Forecast for next 7 days</h2>
-	  <p>This forecast is approximation of what can happen in next 7 days and there is no guarantee that this data is accurate.</p>            
+	  <h2>Forecast for next 8 days</h2>
+	  <p>This forecast is approximation of what can happen in next 8 days and there is no guarantee that this data is accurate.</p>            
 	  <table class="table table-dark">
 	    <thead>
 	      <tr>
