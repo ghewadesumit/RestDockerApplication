@@ -4,7 +4,7 @@ This homework assignment requires to add a REST API endpoints to the application
 data as input parameters to either a GET or POST operation, that will then return JSON result in plain-text to the user.
 
 
-## Important Information about the web application
+## Important Information about the application
 Here the webapplication showcases the data of Cincinnati weather for last three years. 
 A csv file is provided which gives the data for the Cincinnati's weather for last three years.
 The csv file consist of three columns which are 
