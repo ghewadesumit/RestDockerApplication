@@ -82,12 +82,12 @@ public class ForecastBeanObj {
 			} else
 				break;
 		}
-		for (int i = count; i < count + 7; i++) {
+		for (int i = count; i < count + 8; i++) {
 			if (i >= listobj.size()) {
 				ForecastObj fore_obj2 = new ForecastObj();
-				fore_obj2.setDATE((firstdate + i) + "");
-				fore_obj2.setTMax(7 + i);
-				fore_obj2.setTMin(i);
+				fore_obj2.setDATE((firstdate + i-listobj.size()) + "");
+				fore_obj2.setTMax(12 + i-listobj.size());
+				fore_obj2.setTMin(i-listobj.size());
 				resultobj.add(fore_obj2);
 			} else {
 				resultobj.add(listobj.get(i));
