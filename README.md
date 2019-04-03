@@ -15,6 +15,8 @@ The csv file consist of three columns which are
 This Data is converted into JSON format and consumed by the webservices and can be accessed upon request.
 
 ## Getting Started:
+Use the following link:
+### http://ec2-54-186-40-227.us-west-2.compute.amazonaws.com:8080/Rest_proj/rest/supersumoz
 
 ### 1. /historical/:
 Method that will be used here will be **GET** 
@@ -49,8 +51,6 @@ Browser
 1. Deploy Java Web App on Amazon Linux EC2 Instance Using Tomcat 
 https://www.youtube.com/watch?v=_d-c9uGcUrU
 
-2. Deploy war file to Docker Image
-http://codeomitted.com/deploy-war-file-to-docker-image/
 
 ## Author
 
