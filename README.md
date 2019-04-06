@@ -16,7 +16,7 @@ This Data is converted into JSON format and consumed by the webservices and can 
 
 ## Getting Started:
 Use the following link:
-### http://ec2-54-186-40-227.us-west-2.compute.amazonaws.com:8080/Rest_proj/rest/supersumoz
+### http://ec2-54-186-40-227.us-west-2.compute.amazonaws.com:8080/Rest_proj
 
 ### 1. /historical/:
 Method that will be used here will be **GET** 
